@@ -1,0 +1,43 @@
+* {
+    font-family: sans-serif;
+}
+
+#start {
+    font-size: xx-large;
+    display: inline-block;
+    color: #ffffff;
+    background-color: #008b8b;
+    width: 50%;
+    border-radius: 28px;
+}
+
+#start:hover {
+    background-color: #017979;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+
+#gameArea {
+    width: 690px;
+}
+
+.gameTile {
+    width: 160px;
+}
+
+.tile {
+    display: inline-block;
+    border: 1px solid black;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.tile:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0 3px rgba(19, 235, 235, 0.6);
+}
+
+#message {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
