@@ -69,7 +69,7 @@ function flipCard(jpg, t) {
                     message.innerHTML = 'Choose a different tile';
                     secondFlipped = -1;
                 } else if(secondFlipped === cardFlipped && isAlreadyFlipped(t) === -1) {
-                    if(tilesFlippedOver.length === tiles.length-1) {
+                    if(tilesFlippedOver.length >= tiles.length-1) {
                         message.innerHTML = 'Congratulations! You uncovered every tile!';
                         gameOver();
                     } else {
